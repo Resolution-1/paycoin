@@ -11,18 +11,26 @@
 .left {
   background-color: rgb(255, 255, 255);
 }
+.img-fluid {
+  margin-top: 70px;
+  /* width: 600px !important; */
+}
 .right {
   padding: 0 !important;
   display: flex;
   justify-content: center;
   align-items: center;
   font-size: 100px;
+  text-align: center;
   font-family: "Montserrat", sans-serif;
+  font-weight: 600;
   flex-direction: column;
 }
 .description {
-  font-size: 25px;
+  font-size: 22px;
   margin-top: -20px;
+  font-weight: 300;
+  text-align: center;
 }
 .fade-in {
   animation: fadeIn 3s;

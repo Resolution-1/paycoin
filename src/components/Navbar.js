@@ -4,7 +4,7 @@ import "./navbar.css";
 const Navbar = () => {
   return (
     <nav class="navbar fixed-top navbar-expand-md navbar-dark bg-faded">
-      <a class="navbar-brand">BITFARM</a>
+      <a class="navbar-brand"></a>
       <div
         class="navbar-toggler navbar-toggler-right"
         type="div"

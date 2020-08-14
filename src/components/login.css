@@ -1,0 +1,19 @@
+.container-fluid {
+  padding: 0 !important;
+  /* background-color: chartreuse; */
+  height: 100vh;
+}
+.row {
+  margin: 0 !important;
+  height: auto;
+}
+
+.login {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 30%;
+  left: 30%;
+  width: 40%;
+}
