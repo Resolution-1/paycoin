@@ -7,11 +7,15 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 function App() {
   return (
-    <React.Fragment>
-      <Navbar></Navbar>
-      <Home></Home>
-      {/* <Login></Login> */}
-    </React.Fragment>
+    <Router>
+      <React.Fragment>
+        <Navbar></Navbar>
+        <Switch>
+          <Route path="/" exact component={Home}></Route>
+          <Route path="/login" exact component={Login}></Route>
+        </Switch>
+      </React.Fragment>
+    </Router>
   );
 }
 export default App;
