@@ -1,5 +1,6 @@
 import React from "react";
 import "./navbar.css";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
@@ -18,18 +19,26 @@ const Navbar = () => {
       </div>
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav ml-auto">
-          <li class="nav-item">
-            <div class="nav-link">About</div>
-          </li>
-          <li class="nav-item">
-            <div class="nav-link">Invest</div>
-          </li>
-          <li class="nav-item">
-            <div class="nav-link">Products</div>
-          </li>
-          <li class="nav-item">
-            <div class="nav-link">Login</div>
-          </li>
+          <Link style={{ textDecoration: "none" }} to="./about">
+            <li class="nav-item">
+              <div class="nav-link">About</div>
+            </li>
+          </Link>
+          <Link style={{ textDecoration: "none" }} to="./invest">
+            <li class="nav-item">
+              <div class="nav-link">Invest</div>
+            </li>
+          </Link>
+          <Link style={{ textDecoration: "none" }} to="./products">
+            <li class="nav-item">
+              <div class="nav-link">Products</div>
+            </li>
+          </Link>
+          <Link style={{ textDecoration: "none" }} to="./login">
+            <li class="nav-item">
+              <div class="nav-link">Login</div>
+            </li>
+          </Link>
         </ul>
       </div>
     </nav>
