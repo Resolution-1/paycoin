@@ -19,6 +19,11 @@ const Navbar = () => {
       </div>
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav ml-auto">
+          <Link style={{ textDecoration: "none" }} to="./">
+            <li class="nav-item">
+              <div class="nav-link">Home</div>
+            </li>
+          </Link>
           <Link style={{ textDecoration: "none" }} to="./about">
             <li class="nav-item">
               <div class="nav-link">About</div>
