@@ -12,7 +12,7 @@ const Home = () => {
             className="img-fluid"
           ></img>
         </div>
-        <div className="col-sm-12 col-md-6 right">
+        <div className="col-sm-12 col-md-6 right fade-in">
           <div>PAY COIN</div>
           <div className="description">
             Decentralised Marketplace For Farmers And Small Businesses
