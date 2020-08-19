@@ -1,5 +1,4 @@
 import React from "react";
-// import "./about.css";
 import Background from "../assets/left.jpg";
 
 const con = {
@@ -33,7 +32,7 @@ const About = () => {
       <div style={row} className="row w-100 h-100">
         <div style={left} className="col-sm-12 col-md-6 "></div>
         <div style={right} className="col-sm-12 col-md-6 ">
-          <h1 style={{ fontSize: 70, paddingBottom: 20 }}>ABOUT US</h1>
+          <h1 style={{ fontSize: 70, paddingBottom: 30 }}>ABOUT US</h1>
           <div>
             Blockchain based transparent market place where the farmers and
             consumers could implement a co-operative farming method. Here, the
