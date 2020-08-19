@@ -1,9 +1,18 @@
 import React from "react";
 import "./login.css";
+import background from "../assets/b.jpg";
+
+const con = {
+  padding: "0 !important",
+  height: "100vh",
+  backgroundImage: `url(${background})`,
+  backgroundSize: "cover",
+  backgroundRepeat: "no-repeat",
+};
 
 const Login = () => {
   return (
-    <div className="container-fluid">
+    <div style={con} className="container-fluid">
       <div className="login-box">
         <h1>Login</h1>
         <form>

@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Crimson+Text&family=Montserrat:wght@300&family=Open+Sans:wght@300&display=swap");
 .navbar.fixed-top {
-  background: rgba(182, 177, 177, 0.925);
+  background: rgba(133, 121, 121, 0.466);
   height: 70px;
 }
 .navbar-brand {

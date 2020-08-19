@@ -1,9 +1,9 @@
-.container-fluid {
+/* .container-fluid {
   height: 100vh;
   background-image: url("../assets/b.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-}
+} */
 .login-box {
   width: 280px;
   position: absolute;
