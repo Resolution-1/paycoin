@@ -1,19 +1,46 @@
 .container-fluid {
-  padding: 0 !important;
-  /* background-color: chartreuse; */
   height: 100vh;
+  background-image: url("../assets/b.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
-.row {
-  margin: 0 !important;
-  height: auto;
-}
-
-.login {
+.login-box {
+  width: 280px;
   position: absolute;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  top: 30%;
-  left: 30%;
-  width: 40%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: rgb(0, 0, 0);
+}
+.login-box h1 {
+  float: left;
+  font-size: 40px;
+  border-bottom: 2px solid;
+  font-family: "Montserrat", sans-serif;
+  padding: 13px 0;
+}
+.textbox {
+  width: 100%;
+  overflow: hidden;
+  font-size: 20px;
+  padding: 8px 0;
+  margin: 8px 0;
+}
+.textbox input {
+  border: none;
+  /* text-decoration: none; */
+  outline: none;
+  border-bottom: 2px solid;
+  padding: 5px;
+  font-family: "Montserrat", sans-serif;
+  background: none;
+}
+.b {
+  border: none;
+  outline: none;
+  padding: 8px;
+  border-radius: 10%;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
 }
